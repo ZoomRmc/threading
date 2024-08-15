@@ -7,15 +7,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>threading/channels</title>
 
+<!-- Google fonts -->
+<link href='https://fonts.googleapis.com/css?family=Lato:400,600,900' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600' rel='stylesheet' type='text/css'/>
+
 <!-- Favicon -->
 <link rel="shortcut icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AAAAAAUAAAAF////AP///wD///8A////AP///wD///8A////AP///wD///8A////AAAAAAIAAABbAAAAlQAAAKIAAACbAAAAmwAAAKIAAACVAAAAWwAAAAL///8A////AP///wD///8A////AAAAABQAAADAAAAAYwAAAA3///8A////AP///wD///8AAAAADQAAAGMAAADAAAAAFP///wD///8A////AP///wAAAACdAAAAOv///wD///8A////AP///wD///8A////AP///wD///8AAAAAOgAAAJ3///8A////AP///wAAAAAnAAAAcP///wAAAAAoAAAASv///wD///8A////AP///wAAAABKAAAAKP///wAAAABwAAAAJ////wD///8AAAAAgQAAABwAAACIAAAAkAAAAJMAAACtAAAAFQAAABUAAACtAAAAkwAAAJAAAACIAAAAHAAAAIH///8A////AAAAAKQAAACrAAAAaP///wD///8AAAAARQAAANIAAADSAAAARf///wD///8AAAAAaAAAAKsAAACk////AAAAADMAAACcAAAAnQAAABj///8A////AP///wAAAAAYAAAAGP///wD///8A////AAAAABgAAACdAAAAnAAAADMAAAB1AAAAwwAAAP8AAADpAAAAsQAAAE4AAAAb////AP///wAAAAAbAAAATgAAALEAAADpAAAA/wAAAMMAAAB1AAAAtwAAAOkAAAD/AAAA/wAAAP8AAADvAAAA3gAAAN4AAADeAAAA3gAAAO8AAAD/AAAA/wAAAP8AAADpAAAAtwAAAGUAAAA/AAAA3wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADfAAAAPwAAAGX///8A////AAAAAEgAAADtAAAAvwAAAL0AAADGAAAA7wAAAO8AAADGAAAAvQAAAL8AAADtAAAASP///wD///8A////AP///wD///8AAAAAO////wD///8A////AAAAAIcAAACH////AP///wD///8AAAAAO////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A//8AAP//AAD4HwAA7/cAAN/7AAD//wAAoYUAAJ55AACf+QAAh+EAAAAAAADAAwAA4AcAAP5/AAD//wAA//8AAA=="/>
 <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH4QQQEwksSS9ZWwAAAk1JREFUWMPtll2ITVEUx39nn/O7Y5qR8f05wtCUUr6ZIS++8pEnkZInPImneaCQ5METNdOkeFBKUhMPRIkHKfEuUZSUlGlKPN2TrgfncpvmnntnmlEyq1Z7t89/rf9a6+y99oZxGZf/XeIq61EdtgKXgdXA0xrYAvBjOIF1AI9zvjcC74BSpndrJPkBWDScTF8Aa4E3wDlgHbASaANmVqlcCnwHvgDvgVfAJ+AikAAvgfVZwLnSVZHZaOuKoQi3ZOMi4NkYkpe1p4J7A8BpYAD49hfIy/oqG0+hLomiKP2L5L+1ubn5115S+3OAn4EnwBlgMzCjyt6ZAnQCJ4A7wOs88iRJHvw50HoujuPBoCKwHWiosy8MdfZnAdcHk8dxXFJ3VQbQlCTJvRBCGdRbD4M6uc5glpY3eAihpN5S5w12diSEcCCEcKUO4ljdr15T76ur1FDDLIQQ3qv71EdDOe3Kxj3leRXyk+pxdWnFWod6Wt2bY3de3aSuUHcPBVimHs7mK9WrmeOF6lR1o9qnzskh2ar2qm1qizpfXaPeVGdlmGN5pb09qMxz1Xb1kLqgzn1RyH7JUXW52lr5e/Kqi9qpto7V1atuUzfnARrV7jEib1T76gG2qxdGmXyiekkt1GswPTtek0aBfJp6YySGBfWg2tPQ0FAYgf1stUfdmdcjarbYJEniKIq6gY/Aw+zWHAC+p2labGpqiorFYgGYCEzN7oQdQClN07O1/EfDyGgC0ALMBdYAi4FyK+4H3gLPsxfR1zRNi+NP7nH5J+QntnXe5B5mpfQAAAAASUVORK5CYII=">
 
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="nimdoc.out.css?v=2.1.1">
+<link rel="stylesheet" type="text/css" href="nimdoc.out.css?v=2.1.9">
 
 <!-- JS -->
-<script type="text/javascript" src="dochack.js?v=2.1.1"></script>
+<script type="text/javascript" src="dochack.js?v=2.1.9"></script>
 </head>
 <body>
   <div class="document" id="documentId">
@@ -48,9 +52,6 @@
     </div>
     <ul class="simple simple-toc" id="toc-list">
   <li>
-  <a class="reference reference-toplevel" href="#6" id="56">Imports</a>
-</li>
-<li>
   <details open>
     <summary><a class="reference reference-toplevel" href="#7" id="57">Types</a></summary>
     <ul class="simple simple-toc-section">
@@ -69,6 +70,14 @@
 </ul>
 <ul class="simple nested-toc-section">=destroy
   <li><a class="reference" href="#%3Ddestroy%2CChan%5BT%5D" title="`=destroy`[T](c: Chan[T])">`=destroy`[T](c: Chan[T])</a></li>
+
+</ul>
+<ul class="simple nested-toc-section">=dup
+  <li><a class="reference" href="#%3Ddup%2CChan%5BT%5D" title="`=dup`[T](src: Chan[T]): Chan[T]">`=dup`[T](src: Chan[T]): Chan[T]</a></li>
+
+</ul>
+<ul class="simple nested-toc-section">=wasMoved
+  <li><a class="reference" href="#%3DwasMoved%2CChan%5BT%5D" title="`=wasMoved`[T](x: var Chan[T])">`=wasMoved`[T](x: var Chan[T])</a></li>
 
 </ul>
 <ul class="simple nested-toc-section">newChan
@@ -130,7 +139,7 @@
 
     <div id="tocRoot"></div>
     
-    <p class="module-desc">This module only works with <tt class="docutils literal"><span class="pre"><span class="Operator">--</span><span class="Identifier">gc</span><span class="Punctuation">:</span><span class="Identifier">arc</span></span></tt> or <tt class="docutils literal"><span class="pre"><span class="Operator">--</span><span class="Identifier">gc</span><span class="Punctuation">:</span><span class="Identifier">orc</span></span></tt>.<div class="admonition admonition-warning"><span class="admonition-warning-text"><b>Warning:</b></span>
+    <p class="module-desc">This module works only with one of <tt class="docutils literal"><span class="pre"><span class="Operator">--</span><span class="Identifier">mm</span><span class="Punctuation">:</span><span class="Identifier">arc</span></span></tt> / <tt class="docutils literal"><span class="pre"><span class="Operator">--</span><span class="Identifier">mm</span><span class="Punctuation">:</span><span class="Identifier">atomicArc</span></span></tt> / <tt class="docutils literal"><span class="pre"><span class="Operator">--</span><span class="Identifier">mm</span><span class="Punctuation">:</span><span class="Identifier">orc</span></span></tt> compilation flags.<div class="admonition admonition-warning"><span class="admonition-warning-text"><b>Warning:</b></span>
 This module is experimental and its interface may change.</div>
 <p>This module implements multi-producer multi-consumer channels - a concurrency primitive with a high-level interface intended for communication and synchronization between threads. It allows sending and receiving typed, isolated data, enabling safe and efficient concurrency.</p>
 <p>The <tt class="docutils literal"><span class="pre"><span class="Identifier">Chan</span></span></tt> type represents a generic fixed-size channel object that internally manages the underlying resources and synchronization. It has to be initialized using the <tt class="docutils literal"><span class="pre"><span class="Identifier">newChan</span></span></tt> proc. Sending and receiving operations are provided by the blocking <tt class="docutils literal"><span class="pre"><span class="Identifier">send</span></span></tt> and <tt class="docutils literal"><span class="pre"><span class="Identifier">recv</span></span></tt> procs, and non-blocking <tt class="docutils literal"><span class="pre"><span class="Identifier">trySend</span></span></tt> and <tt class="docutils literal"><span class="pre"><span class="Identifier">tryRecv</span></span></tt> procs. Send operations add messages to the channel, receiving operations remove them.</p>
@@ -199,13 +208,7 @@ This module is experimental and its interface may change.</div>
   <span class="Identifier">assert</span> <span class="Identifier">messages</span><span class="Punctuation">[</span><span class="Operator">^</span><span class="DecNumber">1</span><span class="Punctuation">]</span> <span class="Operator">==</span> <span class="StringLit">&quot;Another message&quot;</span>
   <span class="Comment"># At least one non-successful attempt to receive the message had to occur.</span>
   <span class="Identifier">assert</span> <span class="Identifier">messages</span><span class="Operator">.</span><span class="Identifier">len</span> <span class="Operator">&gt;=</span> <span class="DecNumber">2</span></pre></p>
-    <div class="section" id="6">
-  <h1><a class="toc-backref" href="#6">Imports</a></h1>
-  <dl class="item">
-    <a class="reference external" href="atomics.html">atomics</a>
-  </dl>
-</div>
-<div class="section" id="7">
+    <div class="section" id="7">
   <h1><a class="toc-backref" href="#7">Types</a></h1>
   <dl class="item">
     <div id="Chan">
@@ -213,8 +216,8 @@ This module is experimental and its interface may change.</div>
   <dd>
     
     Typed channel
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L265" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L265" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L257" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L257" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -230,8 +233,8 @@ This module is experimental and its interface may change.</div>
   <dd>
     
     Shares <tt class="docutils literal"><span class="pre"><span class="Identifier">Channel</span></span></tt> by reference counting.
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L283" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L283" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L282" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L282" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -243,8 +246,34 @@ This module is experimental and its interface may change.</div>
   <dd>
     
     
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L268" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L268" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+
+  </dd>
+</div>
+
+</div>
+<div id="=dup-procs-all">
+  <div id="=dup,Chan[T]">
+  <dt><pre><span class="Keyword">proc</span> <a href="#%3Ddup%2CChan%5BT%5D"><span class="Identifier">`=dup`</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">src</span><span class="Other">:</span> <a href="channels.html#Chan"><span class="Identifier">Chan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <a href="channels.html#Chan"><span class="Identifier">Chan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span></pre></dt>
+  <dd>
+    
+    
     <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L277" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
 <a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L277" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+
+  </dd>
+</div>
+
+</div>
+<div id="=wasMoved-procs-all">
+  <div id="=wasMoved,Chan[T]">
+  <dt><pre><span class="Keyword">proc</span> <a href="#%3DwasMoved%2CChan%5BT%5D"><span class="Identifier">`=wasMoved`</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">x</span><span class="Other">:</span> <span class="Keyword">var</span> <a href="channels.html#Chan"><span class="Identifier">Chan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span></pre></dt>
+  <dd>
+    
+    
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L274" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L274" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -258,8 +287,8 @@ This module is experimental and its interface may change.</div>
     <p>An initialization procedure, necessary for acquiring resources and initializing internal state of the channel.</p>
 <p><tt class="docutils literal"><span class="pre"><span class="Identifier">elements</span></span></tt> is the capacity of the channel and thus how many messages it can hold before it refuses to accept any further messages.</p>
 
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L371" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L371" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L368" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L368" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -267,12 +296,12 @@ This module is experimental and its interface may change.</div>
 </div>
 <div id="peek-procs-all">
   <div id="peek,Chan[T]">
-  <dt><pre><span class="Keyword">func</span> <a href="#peek%2CChan%5BT%5D"><span class="Identifier">peek</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">c</span><span class="Other">:</span> <a href="channels.html#Chan"><span class="Identifier">Chan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">int</span> {.<span class="Identifier">inline</span>.}</pre></dt>
+  <dt><pre><span class="Keyword">proc</span> <a href="#peek%2CChan%5BT%5D"><span class="Identifier">peek</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">(</span><span class="Identifier">c</span><span class="Other">:</span> <a href="channels.html#Chan"><span class="Identifier">Chan</span></a><span class="Other">[</span><span class="Identifier">T</span><span class="Other">]</span><span class="Other">)</span><span class="Other">:</span> <span class="Identifier">int</span> {.<span class="Identifier">inline</span>.}</pre></dt>
   <dd>
     
     Returns an estimation of the current number of messages held by the channel.
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L367" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L367" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L364" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L364" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -284,8 +313,8 @@ This module is experimental and its interface may change.</div>
   <dd>
     
     Receives a message from the channel. A version of <a class="reference internal nimdoc" title="proc recv (2 overloads)" href="#recv-procs-all">recv</a> that returns the message.
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L355" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L355" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L352" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L352" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -297,8 +326,8 @@ This module is experimental and its interface may change.</div>
 <p>This blocks the receiving thread until a message was successfully received.</p>
 <p>If the channel does not contain any messages this will block the thread until a message get sent to the channel.</p>
 
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L346" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L346" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L343" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L343" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -310,8 +339,8 @@ This module is experimental and its interface may change.</div>
   <dd>
     
     Receives a message from the channel. A version of <a class="reference internal nimdoc" title="proc recv (2 overloads)" href="#recv-procs-all">recv</a> that returns the message and isolates it.
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L360" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L360" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L357" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L357" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -326,8 +355,8 @@ This module is experimental and its interface may change.</div>
 <p>The memory of <tt class="docutils literal"><span class="pre"><span class="Identifier">src</span></span></tt> is moved, not copied.</p>
 <p>If the channel is already full with messages this will block the thread until messages from the channel are removed.</p>
 
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L328" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L328" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L325" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L325" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -344,8 +373,8 @@ This module is experimental and its interface may change.</div>
 Blocking is still possible if another thread uses the blocking version of the <a class="reference internal nimdoc" title="proc send[T](c: Chan[T]; src: sink Isolated[T])" href="#send,Chan[T],sinkIsolated[T]">send proc</a> / <a class="reference internal nimdoc" title="proc recv (2 overloads)" href="#recv-procs-all">recv proc</a> and waits for the data/space to appear in the channel, thus holding the internal lock to channel's buffer.</div>
 <p>Returns <tt class="docutils literal"><span class="pre"><span class="Identifier">false</span></span></tt> and does not change <tt class="docutils literal"><span class="pre"><span class="Identifier">dist</span></span></tt> if no message was received.</p>
 
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L315" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L315" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L312" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L312" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -362,8 +391,8 @@ Blocking is still possible if another thread uses the blocking version of the <a
 Blocking is still possible if another thread uses the blocking version of the <a class="reference internal nimdoc" title="proc send[T](c: Chan[T]; src: sink Isolated[T])" href="#send,Chan[T],sinkIsolated[T]">send proc</a> / <a class="reference internal nimdoc" title="proc recv (2 overloads)" href="#recv-procs-all">recv proc</a> and waits for the data/space to appear in the channel, thus holding the internal lock to channel's buffer.</div>
 <p>Returns <tt class="docutils literal"><span class="pre"><span class="Identifier">false</span></span></tt> if the message was not sent because the number of pending messages in the channel exceeded its capacity.</p>
 
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L292" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L292" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L289" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L289" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -381,8 +410,8 @@ Blocking is still possible if another thread uses the blocking version of the <a
   <dd>
     
     Helper template for <tt class="docutils literal"><span class="pre"><span class="Identifier">send</span></span></tt>.
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L342" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L342" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L339" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L339" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -394,8 +423,8 @@ Blocking is still possible if another thread uses the blocking version of the <a
   <dd>
     
     Helper template for <a class="reference external" href="#trySend,Chan[T],sinkIsolated[T]">trySend</a>.
-    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L311" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
-<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L311" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
+    <a href="https://github.com/ZoomRmc/threading/tree/master/threading/channels.nim#L308" class="link-seesrc" target="_blank">Source</a>&nbsp;&nbsp;
+<a href="https://github.com/ZoomRmc/threading/edit/devel/threading/channels.nim#L308" class="link-seesrc" target="_blank" >Edit</a>&nbsp;&nbsp;
 
   </dd>
 </div>
@@ -411,13 +440,10 @@ Blocking is still possible if another thread uses the blocking version of the <a
       <div class="twelve-columns footer">
         <span class="nim-sprite"></span>
         <br>
-        <small style="color: var(--hint);">Made with Nim. Generated: 2024-05-02 11:23:14 UTC</small>
+        <small style="color: var(--hint);">Made with Nim. Generated: 2024-08-15 10:01:48 UTC</small>
       </div>
     </div>
   </div>
   
-  <!-- Google fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,600,900' rel='stylesheet' type='text/css'/>
-  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600' rel='stylesheet' type='text/css'/>
 </body>
 </html>
